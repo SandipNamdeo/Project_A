@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="test-automation" />
+          <option value="test-automation" />
+          <option value="test-automation" />
+          <option value="test-automation" />
+          <option value="test-automation" />
+          <option value="test-automation" />
+          <option value="test-automation" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.seleniumhq.selenium:selenium-ie-driver:4.0.0" />
+          <option value="org.asynchttpclient:async-http-client:2.12.3" />
+          <option value="io.netty:netty-handler:4.1.67.Final" />
+          <option value="io.netty:netty-common:4.1.68.Final" />
+          <option value="io.netty:netty-codec:4.1.67.Final" />
+          <option value="io.netty:netty-codec-http:4.1.67.Final" />
+          <option value="com.google.guava:guava:31.0.1-jre" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
