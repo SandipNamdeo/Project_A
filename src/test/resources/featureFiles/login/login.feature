@@ -7,4 +7,4 @@ Feature: Login into flight search website
     When User enters value in "username" text field as "test@example.com"
     When User enters value in "password" text field as "Welcome@123"
     When User click on "Log In" button
-    Then User verifies the "An internal error has occurred and has been logged." text is displayed
+    Then User verifies the "The username and password could not be verified." text is displayed
